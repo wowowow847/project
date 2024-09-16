@@ -1,0 +1,40 @@
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+.header__logo {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.header__nav {
+    margin-left: 70px;
+}
+.header__list {
+    display: flex;
+}
+.header__list-item {
+    margin-right: 28px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #B1B1B1;
+    &:last-child {
+        margin: 0;
+    }
+}
+.header__item-link {
+    transition: all .3s;
+    &:hover {
+        color: #E3C37A;
+    }
+}
+.header__tel {
+    color: #E3C37A;
+}
+hr {
+    border: 1px solid;
+    color: #B1B1B1;
+    opacity: 16%;
+}
