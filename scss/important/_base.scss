@@ -22,3 +22,28 @@ body, html {
     height: 68px;
     width: 100%;
 }
+@keyframes list-move1 {
+    0% {
+        top: -240px;
+    }
+    100% {
+        top: -225px;
+    }
+}
+@keyframes list-move2 {
+    0% {
+        top: -390px;
+    }
+    100% {
+        top: -375px;
+        
+    }
+}
+@keyframes list-move3 {
+    0% {
+        top: -460px;
+    }
+    100% {
+        top: -452px;
+    }
+}

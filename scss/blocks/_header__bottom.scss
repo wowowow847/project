@@ -104,6 +104,12 @@
     z-index: 100;
     width: 200px;
 }
+.header__img-list1--animation {
+    animation-name: list-move1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
 .header__img-list2 {
     position: absolute;
     top: -390px;
@@ -111,9 +117,21 @@
     width: 145px;
     opacity: 40%;
 }
+.header__img-list2--animation {
+    animation-name: list-move2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
 .header__img-list3 {
     position: absolute;
     top: -450px;
     right: 550px;
     width: 185px;
+}
+.header__img-list3--animation {
+    animation-name: list-move3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
